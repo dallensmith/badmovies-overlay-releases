@@ -17,6 +17,7 @@ Made by David for [BadMovies.co](https://badmovies.co), a community that watches
 - Categories (tabs): create, rename (double-click), drag a clip onto a tab to move it
 - Drag tiles to reorder, resize tiles with the Size slider
 - Drag video files straight onto the window to add them, or use **＋ Add clips**
+- **📋 Add from link**: copy a YouTube (or other video site) link, click the button, and the video is downloaded (up to 1080p MP4) straight into the board. The downloader (yt-dlp) is fetched on first use and keeps itself updated. Please only download videos you have the right to use
 - Click a tile to show the clip, click again to stop. **Stop all** button and a global hotkey (default `Ctrl+Alt+Backspace`)
 - Per-clip global hotkeys that work while another app has focus
 
@@ -68,7 +69,7 @@ Made by David for [BadMovies.co](https://badmovies.co), a community that watches
 
 ## Quick start
 
-1. **＋ Add clips** (or drag video files in). MP4 (H.264), WebM and MOV are best; anything else is converted for you.
+1. **＋ Add clips** (or drag video files in, or copy a YouTube link and press **📋 Add from link**). MP4 (H.264), WebM and MOV are best; anything else is converted for you.
 2. Click a tile's **⚙**. Pause on a frame and **click the background colour** in the preview. Adjust Tolerance and Edge softness until the checkerboard looks right.
 3. Under **Where on screen**, choose the display and size, or hit **🖱 Move & resize on screen** and drag the real overlay into place. Press **Done** (or Enter) when happy.
 4. **Save**. Click the tile, or press its hotkey, to put the clip on screen. Click again to stop it. `Ctrl+Alt+Backspace` stops everything.
@@ -106,6 +107,7 @@ Audio is kept (use **Mute** per clip if you only want the picture).
 
 | Version | Highlights |
 |---|---|
+| **0.7.0** | 📋 **Add from link**: grab a video from a copied YouTube link straight into the board |
 | **0.6.0** | ✂ **Edit in FilmCraft**: open a clip in FilmCraft, trim/edit, and bring it back re-encoded |
 | **0.5.1** | Fixed the gap at the bottom of the screen when a full-screen clip starts playing; adds `overlay.log` diagnostics |
 | **0.5.0** | ⚡ **Video optimizer** (H.264/AAC, smaller files), automatic conversion of unplayable clips; an undecodable video no longer closes the editing window |
