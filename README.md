@@ -32,6 +32,7 @@ Made by David for [BadMovies.co](https://badmovies.co), a community that watches
 - Each playing clip gets its own transparent, always-on-top window. It is **click-through** and never steals focus, so the app underneath keeps working
 - Sits above borderless-fullscreen players (VLC's normal fullscreen, browsers, most games in borderless mode). Programs in *exclusive* fullscreen cannot be covered by any overlay
 - **Position and size, per clip**: pick the display, type X / Y / W / H, snap to a corner or the centre, or use size presets (15 / 25 / 33 / 50 % of the screen)
+- **Tile pictures**: in the editor, pause on the frame you like and press **📷 Use this frame as the tile picture**; tick *Cut out the key colour* to show just the subject instead of a green rectangle
 - **Position on screen map**: the editor shows your whole display with the clip on it, exactly as it will look. Drag it, resize from the corners, or hit **⛶ Fullscreen** / **◱ Fit screen**. If the clip is playing it moves live, handy mid-stream
 - **Move & resize on screen**: drag the real overlay where you want it, resize from the corners (proportions stay locked unless you turn that off)
 - **⛶ Fill screen**: one click to cover the whole display, including the area under the taskbar
@@ -108,6 +109,7 @@ Audio is kept (use **Mute** per clip if you only want the picture).
 
 | Version | Highlights |
 |---|---|
+| **0.8.1** | 📷 **Choose the tile picture**: pick any frame (optionally with the key colour cut out) so clips are easy to tell apart on the board |
 | **0.8.0** | 🖥 **Position on screen** map in the editor (drag/resize live), **Fullscreen** and **Fit screen** buttons, simpler Where-on-screen panel |
 | **0.7.0** | 📋 **Add from link**: grab a video from a copied YouTube link straight into the board |
 | **0.6.0** | ✂ **Edit in FilmCraft**: open a clip in FilmCraft, trim/edit, and bring it back re-encoded |
