@@ -16,7 +16,7 @@ Made by David for [BadMovies.co](https://badmovies.co), a community that watches
 - Tiles for every clip, with a thumbnail, name, colour, hotkey and a 🔑 badge when keying is on
 - Categories (tabs): create, rename (double-click), drag a clip onto a tab to move it
 - Drag tiles to reorder, resize tiles with the Size slider
-- Drag video files straight onto the window to add them, or use **＋ Add clips**
+- Drag video or **GIF** files straight onto the window to add them, or use **＋ Add clips**
 - **📋 Add from link**: copy a YouTube (or other video site) link, click the button, and the video is downloaded (up to 1080p MP4) straight into the board. The downloader (yt-dlp) is fetched on first use and keeps itself updated. Please only download videos you have the right to use
 - Click a tile to show the clip, click again to stop. **Stop all** button and a global hotkey (default `Ctrl+Alt+Backspace`)
 - Per-clip global hotkeys that work while another app has focus
@@ -71,7 +71,7 @@ Made by David for [BadMovies.co](https://badmovies.co), a community that watches
 
 ## Quick start
 
-1. **＋ Add clips** (or drag video files in, or copy a YouTube link and press **📋 Add from link**). MP4 (H.264), WebM and MOV are best; anything else is converted for you.
+1. **＋ Add clips** (or drag video or GIF files in, or copy a YouTube link and press **📋 Add from link**). MP4 (H.264), WebM and MOV are best; anything else is converted for you.
 2. Click a tile's **⚙**. Pause on a frame and **click the background colour** in the preview. Adjust Tolerance and Edge softness until the checkerboard looks right.
 3. Under **Where on screen**, choose the display and size, or hit **🖱 Move & resize on screen** and drag the real overlay into place. Press **Done** (or Enter) when happy.
 4. **Save**. Click the tile, or press its hotkey, to put the clip on screen. Click again to stop it. `Ctrl+Alt+Backspace` stops everything.
@@ -85,6 +85,7 @@ Tip: shoot or find clips on a solid, evenly-lit background (green or blue screen
 | MP4 / M4V / MOV | Best choice (H.264). Other codecs are converted automatically |
 | WebM | Plays natively |
 | MKV / OGV | Converted to MP4 on add |
+| GIF | Converted to a silent looping MP4 on add (GIFs have no sound, and transparent GIFs get a solid background) |
 
 Audio is kept (use **Mute** per clip if you only want the picture).
 
@@ -109,6 +110,7 @@ Audio is kept (use **Mute** per clip if you only want the picture).
 
 | Version | Highlights |
 |---|---|
+| **0.9.0** | 🎞 **GIF support**: add GIFs as clips (converted to looping MP4 on import) |
 | **0.8.1** | 📷 **Choose the tile picture**: pick any frame (optionally with the key colour cut out) so clips are easy to tell apart on the board |
 | **0.8.0** | 🖥 **Position on screen** map in the editor (drag/resize live), **Fullscreen** and **Fit screen** buttons, simpler Where-on-screen panel |
 | **0.7.0** | 📋 **Add from link**: grab a video from a copied YouTube link straight into the board |
